@@ -34,8 +34,8 @@ class TransferRequest extends FormRequest
      */
     public function rules(): array
     {
-        $min_price = Config::get('constants.min_price');
-        $max_price = Config::get('constants.max_price');
+        $min_price = Config::get('constant.min_price');
+        $max_price = Config::get('constant.max_price');
 
         return [
             'payer_no' => 'required|numeric|exists:cards,card_no',//regex:[0-9]{16} |exists:cards,card_no

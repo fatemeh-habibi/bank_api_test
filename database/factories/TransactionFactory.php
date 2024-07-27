@@ -19,7 +19,7 @@ class TransactionFactory extends Factory
     public function definition(): array
     {
         $price = fake()->unique()->creditCardNumber();
-        $wage = Config::get('constants.wage');
+        $wage = Config::get('constant.wage');
 
         return [
             'price' => $price,

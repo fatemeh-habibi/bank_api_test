@@ -256,9 +256,11 @@ class HomeController extends Controller
         // DB::beginTransaction();
         // try
         // {
-            $wage = Config::get('constants.wage');
+            $wage = Config::get('constant.wage');
+            $decrement_price = $request['price'] + $wage;
+
             $transfer = Transaction::create($request);
-            $payer_card->account()->decrement('balance',$request['price'] + $wage);
+            $payer_card->account()->decrement('balance',$decrement_price);
             $payee_card->account()->increment('balance',$request['price']);
             $this->system_account->increment('balance',$wage);
 

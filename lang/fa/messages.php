@@ -1,0 +1,32 @@
+<?php
+
+return [
+    'sms_send_success' => 'کد با موفقیت ارسال شد.',
+    'code_is_invalid' => 'کد ارسالی اشتباه است',
+    'otp_after_2_minutes' => 'بعد از ۲ دقیقه امتحان کنید',
+    'otp_after_one_day' => 'حساب شما برای یک روز به دلیل تعداد درخواست زیاد مسدود شده است.',
+    'token_invalid' => 'توکن ارسالی اشتباه است',
+    'Unauthorized' => 'نام کاربری یا پسورد شما اشتباه است.',
+    'logged_in' => 'ورود با موفقیت',
+    'user_created_success' => 'کاربر با موفقیت اضافه گردید.',
+    'user_updated_success' => 'کاربر با موفقیت بروزرسانی گردید.',
+    'user_deleted_success' => 'کاربر با موفقیت حذف گردید.',
+    'user_not_verified' => 'کاربر معتبر نیست.',
+    'user_not_found' => 'کاربر موجود نیست.',
+    'can_not_update' => 'شما نمیتوانید این آیتم را ویرایش کنید.',
+    'can_not_update_just_by_creator' => 'شما نمیتوانید این آیتم را ویرایش کنید. تنهاایجاد کننده این امکان را دارد.',
+    'can_not_delete' => 'شما نمیتوانید این آیتم را حذف کنید.',
+    'can_not_delete_just_by_creator' => 'شما نمیتوانید این آیتم را حذف کنید. تنهاایجاد کننده این امکان را دارد.',
+    'can_not_delete_admin_user' => 'شما نمیتوانید ادمین اصلی را حذف کنید.',
+    'item_deleted_success' => 'آیتم موردنظر با موفقیت حذف گردید.',
+    'item_not_found' => 'این مورد موجود نیست.',
+    'request_added_success' => 'درخواست شما با موفقیت انجام گردید.',
+    'request_added_unsuccess' => 'درخواست انجام نگردید.',
+    'request_created_success' => 'درخواست شما با موفقیت اضافه گردید.',
+    'request_updated_success' => 'درخواست شما با موفقیت بروزرسانی گردید.',
+    'request_updated_unsuccess' => 'درخواست شما بروزرسانی نگردید.',
+    'request_refer_success' => 'ارجاع با موفقیت انجام گردید.',
+    'request_comment_success' => 'پیام با موفقیت ارسال گردید.',
+    'request_deleted_success' => 'درخواست شما با موفقیت حذف گردید.',
+    'balance_less_than_price' => 'موجودی کافی نیست.'
+];

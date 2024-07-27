@@ -16,7 +16,7 @@ docker-compose exec laravel php artisan swagger:ge
 Document:
 http://localhost/api/documentation
 Github:
-https://github.com/fatemeh-habibi/cart.git
+https://github.com/fatemeh-habibi/bank_api_test.git
 
 ## License
 
